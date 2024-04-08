@@ -1,0 +1,5 @@
+const cowsay = require('cowsay');
+function helloWorldArmadillo() {
+  console.log(cowsay.say({ text: "WOW world", f: "armadillo" }));
+}
+module.exports = helloWorldArmadillo;
